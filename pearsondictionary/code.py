@@ -147,7 +147,6 @@ class PearsonDictionary:
 
                 if d not in ENGLISH_ONLY_DICTS:
                     non_english = True
-                    print(d)
                     break
 
             if non_english:
