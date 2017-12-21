@@ -175,7 +175,6 @@ class PearsonDictionary:
 
         # Recursive requests if
         if load_all_items and offset + LIMIT < self.last_request_raw_data[API_RESPONSE_TOTAL]:
-            print('RECURSION')
             return self.get_definitions(word, dictionary=dictionary, pos=pos, offset=offset+LIMIT, load_all_items=load_all_items)
 
         return self.last_request_processed_data
