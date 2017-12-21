@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='pearsondictionary',
-    version='0.1',
+    version='0.2',
     description='Simple wrapper for Pearson Dictionaries API',
     url='https://github.com/57uff3r/pearsondictionary',
     packages=['pearsondictionary'],
